@@ -1,0 +1,9 @@
+cradle:
+  cabal:
+    - path: "."
+      component: "exe:md5-exe"
+    - path: "./src"
+      component: "lib:md5"
+    - path: "./test"
+      component: "test:md5-test"
+    
